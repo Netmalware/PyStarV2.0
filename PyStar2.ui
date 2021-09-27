@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>358</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>620</width>
+    <height>358</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.545864, x2:1, y2:1, stop:0.0113636 rgba(22, 46, 42, 255), stop:0.301136 rgba(43, 150, 147, 255), stop:0.420455 rgba(57, 213, 227, 255), stop:0.596591 rgba(60, 239, 224, 255), stop:0.806818 rgba(152, 255, 245, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>541</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>541</width>
+     <height>231</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Bem vindo(a) a versão mais recente e com melhorias do PyStar 
+
+Atualizações:
+
+. humildemente dinâmico
+. Atualizações com idiomas (english - espanõl)
+. bugs e falhas corrigidas
+. solicitador de feedback ativo</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font: 81 26pt &quot;Open Sans ExtraBold&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>De cara nova!!!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>320</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Kevin Softwares (c)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
